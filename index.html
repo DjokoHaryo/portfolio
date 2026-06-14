@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unhan Portfolio | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor"></div>
+
+  <!-- Page Transition Overlay -->
+  <div class="page-transition-overlay active"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">
+      <span>🚀</span> Unhan Cadet
+    </a>
+    <button class="nav-menu-btn" aria-label="Toggle Menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Draggable Stickers -->
+    <div class="sticker s1" title="Geser saya!">🔐</div>
+    <div class="sticker s2" title="Geser saya!">📊</div>
+    <div class="sticker s3" title="Geser saya!">💻</div>
+    <div class="sticker s4" title="Geser saya!">⚡</div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Halo! Saya <span class="highlight yellow">Djoko</span>, mahasiswa di Universitas Pertahanan</h1>
+        <div class="hero-subtitle">
+          Mempelajari <span id="typed" class="typing-text"></span>
+        </div>
+        <p class="hero-desc">
+          Selamat datang di ruang kreatif digital saya! Saya fokus mempelajari dunia <span
+            class="highlight coral">Kriptografi</span> (keamanan informasi), pengolahan <span
+            class="highlight mint">Data</span>, dan pemecahan masalah algoritma melalui <span
+            class="highlight green">Competitive Programming</span>. Mari menjelajah proyek-proyek saya dengan cara yang
+          menyenangkan!
+        </p>
+        <div class="hero-btns">
+          <a href="projects.html" class="neo-btn">Lihat Proyek Saya 📁</a>
+          <a href="contact.html" class="neo-btn coral">Katakan Halo! 👋</a>
+        </div>
+      </div>
+
+      <div class="hero-graphic">
+        <div class="window animate-float">
+          <div class="window-header">
+            <span>djokhryo.exe</span>
+            <div class="window-buttons">
+              <span class="window-dot red"></span>
+              <span class="window-dot yellow"></span>
+              <span class="window-dot green"></span>
+            </div>
+          </div>
+          <div class="window-body yellow"
+            style="display: flex; justify-content: center; align-items: center; min-height: 250px;">
+            <!-- Cute SVG Graphic representing Code, Security, and Data -->
+            <svg width="220" height="220" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <!-- Grid background -->
+              <rect x="0" y="0" width="200" height="200" fill="none" />
+              <!-- Cute computer face -->
+              <rect x="20" y="30" width="160" height="120" rx="15" fill="#1E1E1E" stroke="#1E1E1E" stroke-width="4" />
+              <rect x="30" y="40" width="140" height="100" rx="8" fill="#95E1D3" stroke="#1E1E1E" stroke-width="3" />
+              <!-- Screen content -->
+              <!-- Cipher text text -->
+              <text x="40" y="65" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="bold"
+                fill="#1E1E1E">&gt; Cipher: Rot13</text>
+              <text x="40" y="80" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="bold"
+                fill="#1E1E1E">&gt; Data: 10110</text>
+              <!-- Smiley face inside monitor -->
+              <circle cx="85" cy="110" r="8" fill="#1E1E1E" />
+              <circle cx="115" cy="110" r="8" fill="#1E1E1E" />
+              <path d="M 90 125 Q 100 135 110 125" stroke="#1E1E1E" stroke-width="4" fill="none"
+                stroke-linecap="round" />
+              <!-- Computer base -->
+              <path d="M 70 150 L 130 150 L 150 175 L 50 175 Z" fill="#F38181" stroke="#1E1E1E" stroke-width="4"
+                stroke-linejoin="round" />
+              <rect x="80" y="150" width="40" height="15" fill="#1E1E1E" />
+              <!-- Little floating symbols -->
+              <text x="25" y="180" font-size="24" transform="rotate(-15 25 180)">🔑</text>
+              <text x="160" y="50" font-size="24" transform="rotate(15 160 50)">📈</text>
+              <text x="165" y="165" font-size="24" transform="rotate(-10 165 165)">💻</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Focus Areas Section -->
+    <section style="margin-bottom: 4rem;">
+      <h2 class="home-section-title">Bidang Fokus Saya</h2>
+      <div class="home-skills-preview">
+        <!-- Card 1 -->
+        <div class="neo-card coral">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">🔐</div>
+          <h3>Kriptografi</h3>
+          <p style="margin-top: 0.5rem; color: #1E1E1E;">
+            Mempelajari metode enkripsi data modern, analisis sandi (cipher), dan protokol keamanan untuk menjaga
+            integritas data nasional.
+          </p>
+        </div>
+        <!-- Card 2 -->
+        <div class="neo-card yellow">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">📊</div>
+          <h3>Data Science</h3>
+          <p style="margin-top: 0.5rem;">
+            Mengolah data terstruktur dan tidak terstruktur, mengekstrak pola informatif, serta membuat visualisasi data
+            untuk keputusan strategis.
+          </p>
+        </div>
+        <!-- Card 3 -->
+        <div class="neo-card mint">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">💻</div>
+          <h3>Competitive Programming</h3>
+          <p style="margin-top: 0.5rem;">
+            Melatih logika pemecahan masalah matematika dan algoritma dengan batasan waktu dan memori yang ketat secara
+            efisien.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fun Quote banner -->
+    <section class="neo-card green" style="text-align: center; margin-bottom: 2rem;">
+      <p style="font-size: 1.4rem; font-weight: 700; font-family: var(--font-heading);">
+        "Keamanan bukan tentang mempersulit hidup kita, melainkan tentang melindungi apa yang berharga." 🛡️
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">🚀 Unhan Cadet Portfolio</div>
+      <p>&copy; 2026. Dibuat dengan penuh warna dan keceriaan.</p>
+      <div class="social-links">
+        <a href="#" class="social-icon" aria-label="Github">🐱</a>
+        <a href="#" class="social-icon" aria-label="LinkedIn">💼</a>
+        <a href="#" class="social-icon" aria-label="Instagram">📸</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Initialize typing effect on home page
+      window.initTypingEffect('#typed', [
+        'Kriptografi (Cryptography) 🔐',
+        'Ilmu Data (Data Science) 📊',
+        'Competitive Programming 💻'
+      ], 100, 2000);
+    });
+  </script>
+</body>
+
+</html>
