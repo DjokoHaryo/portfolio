@@ -1,0 +1,31 @@
+/* The wrapper fills the #lanyard-root container absolutely.
+   pointer-events:none so the overlay doesn't block clicks on text/buttons;
+   the canvas element itself re-enables pointer events for drag interaction. */
+.lanyard-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 560px;
+  overflow: visible;
+  pointer-events: none;
+}
+
+/* Ensure R3F container div does not collapse to 0px */
+.lanyard-wrapper>div {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 560px !important;
+  overflow: visible !important;
+}
+
+/* Let canvas fill container with explicit minimum size so it never renders at 0px */
+.lanyard-wrapper canvas {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 560px !important;
+  display: block;
+  pointer-events: auto;
+  overflow: visible;
+}

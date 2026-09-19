@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unhan Portfolio | Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor"></div>
+
+  <!-- Page Transition Overlay -->
+  <div class="page-transition-overlay active"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">
+      <span>🚀</span> Unhan Cadet
+    </a>
+    <button class="nav-menu-btn" aria-label="Toggle Menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Draggable Stickers -->
+    <div class="sticker s1" title="Geser saya!">🔐</div>
+    <div class="sticker s2" title="Geser saya!">📊</div>
+    <div class="sticker s3" title="Geser saya!">💻</div>
+    <div class="sticker s4" title="Geser saya!">🛠️</div>
+
+    <section class="projects-header">
+      <h1>Proyek <span class="highlight mint">Kreatif</span></h1>
+      <p style="margin-top: 1rem; font-size: 1.15rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+        Berikut adalah pameran mini dari beberapa proyek yang saya kerjakan untuk mendalami Kriptografi, Ilmu Data, dan Pemrograman Algoritma.
+      </p>
+
+      <!-- Filter Buttons -->
+      <div class="project-filters">
+        <button class="project-filter-btn active" data-filter="all">Semua ✨</button>
+        <button class="project-filter-btn" data-filter="crypto">Kriptografi 🔐</button>
+        <button class="project-filter-btn" data-filter="data">Data Science 📊</button>
+        <button class="project-filter-btn" data-filter="cp">Competitive Programming 💻</button>
+      </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card neo-card" data-category="crypto">
+        <div class="project-thumbnail coral">
+          <span class="project-tag">Crypto</span>
+          🔐
+        </div>
+        <div class="project-card-content">
+          <h3 class="project-title">Military Cipher Solver</h3>
+          <p class="project-desc">
+            Pustaka Python untuk memecahkan sandi klasik (seperti Vigenere, Caesar, dan Hill Cipher) secara otomatis menggunakan metode analisis frekuensi huruf dan indeks koisiden.
+          </p>
+          <div class="project-links">
+            <a href="#">Demo Proyek 🔗</a>
+            <a href="#">Kode Sumber 🐱</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card neo-card" data-category="cp">
+        <div class="project-thumbnail mint">
+          <span class="project-tag">CP / Algoritma</span>
+          💻
+        </div>
+        <div class="project-card-content">
+          <h3 class="project-title">Algoritma Pathfinding 2D</h3>
+          <p class="project-desc">
+            Visualisasi web interaktif yang membandingkan performa pencarian rute terpendek (Dijkstra, A*, BFS, DFS) untuk navigasi robot taktis militer di medan berpenghalang.
+          </p>
+          <div class="project-links">
+            <a href="#">Demo Proyek 🔗</a>
+            <a href="#">Kode Sumber 🐱</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card neo-card" data-category="data">
+        <div class="project-thumbnail yellow">
+          <span class="project-tag">Data Science</span>
+          📊
+        </div>
+        <div class="project-card-content">
+          <h3 class="project-title">Analisis Tren Ancaman Siber</h3>
+          <p class="project-desc">
+            Notebook data yang menganalisis dataset serangan siber global untuk mencari hubungan antara waktu serangan, wilayah geografis, dan kerentanan sistem terpopuler.
+          </p>
+          <div class="project-links">
+            <a href="#">Demo Proyek 🔗</a>
+            <a href="#">Kode Sumber 🐱</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card neo-card" data-category="crypto">
+        <div class="project-thumbnail green">
+          <span class="project-tag">Crypto</span>
+          💬
+        </div>
+        <div class="project-card-content">
+          <h3 class="project-title">Secure Chat App (RSA/AES)</h3>
+          <p class="project-desc">
+            Aplikasi obrolan lokal berbasis socket yang menerapkan enkripsi end-to-end. Kunci simetris AES ditukar secara aman menggunakan kunci asimetris RSA.
+          </p>
+          <div class="project-links">
+            <a href="#">Demo Proyek 🔗</a>
+            <a href="#">Kode Sumber 🐱</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-card neo-card" data-category="cp">
+        <div class="project-thumbnail coral">
+          <span class="project-tag">CP / Algoritma</span>
+          ⚙️
+        </div>
+        <div class="project-card-content">
+          <h3 class="project-title">CP Solver C++ Templates</h3>
+          <p class="project-desc">
+            Koleksi pustaka kelas C++ siap pakai untuk struktur data tingkat lanjut (seperti Segment Tree dengan Lazy Propagation, DSU, dan Fenwick Tree) yang dioptimasi untuk kecepatan eksekusi.
+          </p>
+          <div class="project-links">
+            <a href="#">Demo Proyek 🔗</a>
+            <a href="#">Kode Sumber 🐱</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project-card neo-card" data-category="data">
+        <div class="project-thumbnail mint">
+          <span class="project-tag">Data Science</span>
+          📈
+        </div>
+        <div class="project-card-content">
+          <h3 class="project-title">Algoritma Benchmarking Dashboard</h3>
+          <p class="project-desc">
+            Dasbor web interaktif yang membandingkan kompleksitas waktu dan penggunaan memori dari berbagai macam algoritma pengurutan (sorting) dan pencarian (searching) secara langsung.
+          </p>
+          <div class="project-links">
+            <a href="#">Demo Proyek 🔗</a>
+            <a href="#">Kode Sumber 🐱</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">🚀 Unhan Cadet Portfolio</div>
+      <p>&copy; 2026. Dibuat dengan penuh warna dan keceriaan.</p>
+      <div class="social-links">
+        <a href="#" class="social-icon" aria-label="Github">🐱</a>
+        <a href="#" class="social-icon" aria-label="LinkedIn">💼</a>
+        <a href="#" class="social-icon" aria-label="Instagram">📸</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Projct filtering logic
+      const filterButtons = document.querySelectorAll('.project-filter-btn');
+      const projectCards = document.querySelectorAll('.project-card');
+
+      filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Remove active class
+          filterButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const filterValue = btn.getAttribute('data-filter');
+
+          projectCards.forEach(card => {
+            const category = card.getAttribute('data-category');
+            if (filterValue === 'all' || category === filterValue) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>
